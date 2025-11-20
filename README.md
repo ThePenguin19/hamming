@@ -77,3 +77,13 @@ Verify that you're in a python3 virtual environment by running:
 # Must be in activated virtual environment
 $ pip install -r requirements.txt
 ```
+
+8. You should see a few directories on the side. The testing directory holds the tests in a file called `test_hamming.py`. The `src` directory holds a file called `hamming.py`. That file is where you should write the function. The function definition is provided.
+   
+# Run Tests
+
+Follow the steps to run your tests. There are two options.
+
+1. Open up a terminal and run the command `pytest`. You should get a list of the tests with "ERROR" before them. Or, if you have written the code correctly, they should all pass.
+
+2. Open up the flask icon on the side and click "Configure Python Tests". A dropdown should appear from the top of the panel. Select "pytest" and then "tests". The testing pane should show up on the left side. You can run the tests by clicing the play button at the top or the play button that pops up for any individual test. If the tests turn green, they are passing. If they turn red, they are failing.
