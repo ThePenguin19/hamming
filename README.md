@@ -30,20 +30,14 @@ Differences: ^ ^ ^  ^ ^    ^^
 Follow these directions once, at the beginning of your project:
 
 
-1. Navigate to your projects folder named `projects`.
-
-If you followed Ada's recommended file system structure from the Intro to Dev Environment lesson in Learn, you can navigate to your projects folder with the following command:
-
-```bash
-$ cd ~/Developer/projects
-```
+1. Navigate to your projects folder in the Ubuntu terminal using the commands we usually do. This is the command that starts with `cd`.
 
 2. In Github click on the "Fork" button in github and fork the repository to your Github account.  This will make a copy of the project in your github account. 
 
-3. "Clone" (download a copy of this project) into your projects folder. This command makes a new folder called `hamming`, and then puts the project into this new folder.  Make sure you are cloning from your copy of the project and not the class version (ada-cX).
+3. "Clone" (download a copy of this project) into your projects folder. This command makes a new folder called `hamming`, and then puts the project into this new folder.  You can find the url to clone under the green "Code" button. Use the command below in the Ubuntu terminal to complete the clone.
 
 ```bash
-$ git clone ...
+$ git clone <"string you copied from Github">
 ```
 
 Use `ls` to confirm there's a new project folder
